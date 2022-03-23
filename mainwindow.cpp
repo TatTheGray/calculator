@@ -375,7 +375,7 @@ void MainWindow::on_pushButton_17_clicked()
     dialog=new Dialog;
     dialog->show();
 
-    connect(this, &MainWindow::signal,dialog, &Dialog::slot);
+    //connect(this, &MainWindow::signal,dialog, &Dialog::slot);
 
     emit signal();
 
@@ -390,4 +390,4 @@ void MainWindow::slot2()
 {
     ui->lineEdit->setText( ui->lineEdit->text()+"+");
 }
-
+// проверка заливки обновлений продукта
